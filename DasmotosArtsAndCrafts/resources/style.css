@@ -1,0 +1,43 @@
+/*font family appears to be the same for all text on the webpage*/
+body {
+  font-family: Helvetica;
+}
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+/*styling for the title of the webpage header*/
+.header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+/*similar styling for all sub-headings on the page */
+.brushes,
+.frames,
+.paint {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* specific background-color styling*/
+.brushes{
+    background-color: mediumspringgreen;
+}
+
+/*specific background-color styling*/
+.frames {
+  background-color: lightcoral;
+}
+
+/*specific background-color styling*/
+.paint {
+  background-color: skyblue;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
